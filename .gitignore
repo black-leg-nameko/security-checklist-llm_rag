@@ -1,0 +1,334 @@
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# セキュリティ診断サービス固有の設定
+# ============================================
+
+# 認証情報・シークレット
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+secrets/
+.secrets/
+credentials/
+.credentials/
+*.credentials
+*.secret
+config.ini
+config.local.*
+settings.local.*
+*.local.*
+
+# APIキー・トークン
+*.api_key
+*.api-key
+*.token
+*.access_token
+*.refresh_token
+api_keys.txt
+tokens.txt
+
+# 環境変数ファイル
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+*.env
+
+# 顧客情報・機密情報を含む可能性のあるファイル
+# 診断レポート（顧客情報が含まれる可能性）
+reports/
+report_*.pdf
+report_*.docx
+report_*.xlsx
+report_*.html
+diagnosis_report_*/
+customer_reports/
+client_reports/
+
+# 診断結果データ
+results/
+test_results/
+diagnosis_results/
+*.results.json
+*.results.xml
+*.results.csv
+output/
+outputs/
+diagnosis_output/
+
+# 顧客固有の設定・データ
+customer_configs/
+client_configs/
+*.customer.*
+*.client.*
+customer_data/
+client_data/
+
+# 診断ログ（機密情報が含まれる可能性）
+logs/
+*.log
+*.log.*
+diagnosis_logs/
+security_logs/
+audit_logs/
+
+# スクリーンショット・キャプチャ
+screenshots/
+captures/
+*.png
+*.jpg
+*.jpeg
+*.gif
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+
+# 一時ファイル・キャッシュ
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+cache/
+*.cache
+
+# バックアップファイル
+*.bak
+*.backup
+*.old
+*~
+
+# アーカイブファイル
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+!examples/**/*.zip
+
+# データベースファイル（ローカル開発用）
+*.db
+*.sqlite
+*.sqlite3
+
+# セッション・Cookieファイル
+*.session
+*.cookie
+
+# ダウンロードファイル
+downloads/
+downloaded_files/
+
+# 顧客提供資料（機密情報が含まれる可能性）
+customer_documents/
+client_documents/
+provided_documents/
+attachments/
+
+# 診断用一時データ
+test_data/
+sample_data/
+diagnosis_data/
+*.test_data.*
+
+# ワークスペース固有の設定
+.workspace/
+workspace_settings.json
+
+# ドラフト・下書きファイル
+drafts/
+*.draft
+*.wip
+
+# メモ・ノート（機密情報が含まれる可能性）
+notes/
+*.note
+*.memo
+meeting_notes/
+*.meeting.*
+
+# ============================================
+# プロプライエタリな診断ツール（非公開）
+# ============================================
+
+# 診断スクリプト（知的財産のため非公開）
+test_security.py
+examples/
+*.diagnosis.*
+diagnosis_tools/
+proprietary_tools/
+
+# 診断スクリプトの依存関係（スクリプトが非公開のため）
+requirements.txt
+
+# ============================================
+# プロジェクト固有の除外設定
+# ============================================
+
+# カスタム除外が必要な場合は、以下に追加してください
+# 例: 特定の顧客プロジェクト用の設定ファイルなど
